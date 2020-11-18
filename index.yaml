@@ -3,7 +3,7 @@ entries:
   gitrepotest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-18T13:27:17.70448+05:30"
+    created: "2020-11-18T13:33:06.166177+05:30"
     description: A Helm chart for Kubernetes that will be pushed to a git repo
     digest: 0d3cab08339a3afb2a21e45dbed03700e65435397294643853781134296ec218
     name: gitrepotest
@@ -14,7 +14,7 @@ entries:
   gitrepotest2:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-11-18T13:27:17.704979+05:30"
+    created: "2020-11-18T13:33:06.166606+05:30"
     description: A Helm chart for Kubernetes
     digest: 921b110c8eebdb51cbb6df8fc466b88207062468b0f2ce93979b01ac3c866ebb
     name: gitrepotest2
@@ -22,4 +22,15 @@ entries:
     urls:
     - gitrepotest2-0.1.0.tgz
     version: 0.1.0
-generated: "2020-11-18T13:27:17.703839+05:30"
+  nginx:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-11-18T13:33:06.167095+05:30"
+    description: A Nginx chart for Kubernetes
+    digest: 82a6d18046857c03b1f8fef5558b08c5bbbd78f650b17232d0c51e9cb9045f01
+    name: nginx
+    type: application
+    urls:
+    - nginx-0.1.0.tgz
+    version: 0.1.0
+generated: "2020-11-18T13:33:06.165525+05:30"
